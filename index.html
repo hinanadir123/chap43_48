@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        img{
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+    <h2>Click the link to see an alert</h2>
+    <a href="#" id="alert-link">Click me</a>
+
+
+
+    <h1> Mobile Images</h1>
+    <img src="./images2/pic3.jpg" alt="mobile" class="mobile-pics" width="150">
+    <img src="./images2/pic1.webp" alt="mobile1" class="mobile-pics" width="150">
+    <img src="./images2/pic2.png" alt="mobile3" class="mobile-pics" width="150">
+
+
+    <h2>Students Record</h2>
+    <table border="3" id="studentTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Father name</th>
+                <th>Age</th>
+                <th>Grade</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+<!-- 
+    4. Display an image in browser. Change the picture on mouseover and set the 
+first picture on mouseout. -->
+
+<h1>Change the picture on mousehover</h1>
+<img id="imgechanger" src="./images2/pic1.webp" alt="image" width="300" height="200"
+onmouseover="changeimage()"
+
+onmouseout= "resetimage()">
+
+   
+<!-- 5. Show a counter in browser. Counter should increase on click on increase 
+button and decrease on click on decrease button. And show updated counter 
+value in browser.  -->
+
+<h1>Counter</h1>
+<p id="counter">0</p>
+<button id="increase-btn">Increase</button>
+<button id="decrease-btn">Decrease</button>
+
+
+    <script src="script.js"></script>
+</div>
+</body>
+</html>
